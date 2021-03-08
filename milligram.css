@@ -27,8 +27,8 @@ body {
 }
 
 blockquote {
-  border-left: 0.3rem solid #d1d1d1;
-  margin-left: 0;
+  border-left: 0.3rem solid #b509ac;
+  margin-left: 3rem;
   margin-right: 0;
   padding: 1rem 1.5rem;
 }
@@ -57,6 +57,25 @@ input[type='submit'] {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.button-sm {
+  background-color: #b509ac;
+  border: 0.1rem solid #b509ac;
+  border-radius: 0.5rem;
+  color: #fff;
+  /* cursor: pointer; */
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 1.8rem;
+  letter-spacing: .1rem;
+  line-height: 1.6rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  /* text-transform: uppercase; */
   white-space: nowrap;
 }
 
@@ -390,6 +409,11 @@ input[type='radio'] {
   max-width: 10%;
 }
 
+.row .column.column-5 {
+  flex: 0 0 5%;
+  max-width: 5%;
+}
+
 .row .column.column-20 {
   flex: 0 0 20%;
   max-width: 20%;
@@ -517,7 +541,6 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
-blockquote,
 dl,
 figure,
 form,
@@ -525,6 +548,10 @@ ol,
 p,
 pre,
 table,
+blockquote {
+  margin-bottom: 1.5rem;
+}
+
 ul {
   margin-bottom: 2.5rem;
 }
