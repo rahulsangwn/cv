@@ -7,3 +7,11 @@
 .color {
     color: #b509ac;
 }
+
+.profiles {
+    margin-right: 1.5em;
+}
+
+svg:hover {
+    fill: #b509ac;
+}
